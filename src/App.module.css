@@ -1,0 +1,59 @@
+.appWrapper {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    margin: 0 auto;
+    width: 400px;
+    min-height: 300px;
+    border: 2.5px solid darkcyan;
+    border-radius: 7%;
+}
+
+.button {
+    width: 70px;
+}
+
+.disabled {
+    opacity: 0.4;
+}
+
+.counterWrapper {
+    margin: 26px;
+    min-height: 160px;
+    border: 2.5px solid darkcyan;
+    border-radius: 5%;
+}
+
+.buttons {
+    margin: 26px;
+    min-height: 70px;
+    border: 2.5px solid darkcyan;
+    border-radius: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button,
+.disabled {
+    padding: 10px;
+    min-width: 90px;
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    color: cadetblue;
+    background-color: darkcyan;
+}
+
+.styleRed {
+    color: red;
+}
+

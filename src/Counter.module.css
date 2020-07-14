@@ -1,0 +1,25 @@
+.counter {
+    border: 2.5px solid darkcyan;
+    border-radius: 5%;
+    min-height: 160px;
+    margin: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block,
+.changeСolor {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.block {
+    color: cadetblue;
+}
+
+.changeСolor {
+    color: red;
+}

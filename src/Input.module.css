@@ -1,0 +1,33 @@
+.inputWrapper {
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.textArea {
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: cadetblue;
+}
+
+.input,
+.maxInputError,
+.startInputError{
+    width: 140px;
+    padding: 7px;
+    outline: none;
+    border: cadetblue solid 2px;
+    border-radius:5px;
+    Box-shadow:0px 1px 0px cadetblue,0px -1px 0px cadetblue, 1px 0px 0px cadetblue,-1px 0px 0px cadetblue;
+    text-align: center;
+}
+
+.maxInputError,
+.startInputError {
+    border: red solid 2px;
+    box-shadow: none;
+}
+
+
